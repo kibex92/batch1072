@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beatles>
+  <title>The Beatles</title>
+  <beatle>
+    <first_name>John</first_name>
+    <last_name>Lennon</last_name>
+    <instrument>Guitar</instrument>
+  </beatle>
+  <beatle>
+    <first_name>Paul</first_name>
+    <last_name>McCartney</last_name>
+    <instrument>Bass Guitar</instrument>
+  </beatle>
+  <beatle>
+    <first_name>George</first_name>
+    <last_name>Harrison</last_name>
+    <instrument>Lead Guitar</instrument>
+  </beatle>
+  <beatle>
+    <first_name>Ringo</first_name>
+    <last_name>Starr</last_name>
+    <instrument>Drums</instrument>
+  </beatle>
+</beatles>

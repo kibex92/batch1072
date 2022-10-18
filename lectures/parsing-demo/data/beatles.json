@@ -1,0 +1,25 @@
+{
+  "title": "The Beatles",
+  "beatles": [
+    {
+      "first_name": "John",
+      "last_name": "Lennon",
+      "instrument": "Guitar"
+    },
+    {
+      "first_name": "Paul",
+      "last_name": "McCartney",
+      "instrument": "Bass Guitar"
+    },
+    {
+      "first_name": "George",
+      "last_name": "Harrison",
+      "instrument": "Lead Guitar"
+    },
+    {
+      "first_name": "Ringo",
+      "last_name": "Starr",
+      "instrument": "Drums"
+    }
+  ]
+}
