@@ -7,7 +7,7 @@ class View
   def display_list(recipes)
     # recipes is the array of recipe instances
     recipes.each_with_index do |recipe, index|
-      puts "#{index + 1}. #{recipe.name} - #{recipe.description}"
+      puts "#{index + 1}. #{recipe.name} - #{recipe.description} (#{recipe.rating}/5). #{recipe.prep_time}"
     end
   end
 
