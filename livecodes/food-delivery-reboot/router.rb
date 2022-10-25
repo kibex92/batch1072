@@ -1,7 +1,8 @@
 class Router
-  def initialize(meals_controller)
+  def initialize(meals_controller, customers_controller)
     @running = true
     @meals_controller = meals_controller
+    @customers_controller = customers_controller
   end
 
   def run
@@ -23,6 +24,8 @@ class Router
     puts "*****************"
     puts "1 - List all meals"
     puts "2 - Create a meal"
+    puts "3 - List all customers"
+    puts "4 - Create a customer"
     puts "9 - Quit"
   end
   
@@ -30,6 +33,8 @@ class Router
     case action
     when 1 then @meals_controller.list
     when 2 then @meals_controller.add
+    when 3 then @customers_controller.list
+    when 4 then @customers_controller.add
     when 9 then stop
     else 
       puts "Wrong input"
