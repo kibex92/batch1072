@@ -1,0 +1,4 @@
+Artists names => 275 results
+Short tracks => 93 results
+First ten albums => First result should be "...And Justice For All" and last one "Ace Of Spades"
+Top 5 Artists => First result should show Led Zeppelin, the last one should be Pearl Jam.
